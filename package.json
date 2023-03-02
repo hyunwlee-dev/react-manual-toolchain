@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "react-manual-toolchain",
+  "version": "1.0.0",
+  "description": "React 매뉴얼 툴체인 구성",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "eslint",
+    "prettier",
+    "babel",
+    "typescript",
+    "jest",
+    "testing-library",
+    "sass",
+    "postcss",
+    "svgr"
+  ],
+  "author": {
+    "name": "hyunwlee",
+    "email": "hwlee3928@gmail.com"
+  },
+  "license": "ISC"
+}
