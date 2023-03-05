@@ -3,9 +3,10 @@
   "version": "0.0.1",
   "description": "React 개발 환경 매뉴얼 구성 (with Webpack)",
   "scripts": {
-    "start": "npm run dev -- --open",
-    "dev": "webpack serve --config ./webpack/dev.js",
-    "bundle": "webpack --config ./webpack/dev.js",
+    "start": "npm run server -- --open",
+    "dev": "npm run server",
+    "server": "webpack server --config ./webpack/dev.js",
+    "bundle": "webpack bundle --config ./webpack/dev.js",
     "build": "webpack build --progress --config ./webpack/build.js"
   },
   "keywords": [
